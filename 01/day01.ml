@@ -1,5 +1,3 @@
-(* open Re *)
-
 let is_numeric = function '0' .. '9' -> true | _ -> false;;
 
 let extract_calibration_value line =
@@ -51,4 +49,4 @@ let () =
   Printf.printf "Part 2: %i\n" part2_soln;;
 
 
-(* dune exec --display quiet --no-print-directory ./day01.exe *)
+(* dune exec --display quiet --no-print-directory ./day01 *)
